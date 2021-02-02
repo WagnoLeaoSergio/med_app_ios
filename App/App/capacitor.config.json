@@ -1,0 +1,16 @@
+{
+  "appId": "com.get.medapp",
+  "appName": "medApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "server": {
+      "allowNavigation": [
+          "*",
+	  "appmonitorvm.rf.gd"
+      ]
+  },
+  "android": {
+  	"allowMixedContent": true
+  }
+}
